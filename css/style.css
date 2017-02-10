@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*
+Theme Name: Hami ÇAKIR
+Author:Hami ÇAKIR
+Author URI: http://hamicakir.com
+Version: 1.0.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+/*
+TABLE OF CONTENTS
+1.	Global
+2.	Header
+3.	Menu
+4.	Mobile Menu
+5.	Footer
+6.	Blog Layout
+7.	Contact Page
+8.	Media Queries
+	29.1 Tablet
+	29.2 Mobile 320
+	29.3 Mobile 480
+9. Helper classes
+*/
+/*=============
+    GLOBAL
+  ============*/
+html,body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.bg-image img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:inherit;
+    background-position: center center;
+    opacity:1;
+    z-index:-20;
+}
+.main{
+    position:absolute;
+    top:0;
+    left:20%;
+    right:20%;
+    z-index:0;
+}
+.logo{
+    width:55%;
+}
+.menu li a{
+    color:white;
+    padding:35px 15;
+}
+.menu li a:hover{
+    background-color:transparent;
+    color: #16b17c;
+}
