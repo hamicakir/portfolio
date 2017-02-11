@@ -36,7 +36,7 @@ body{
     margin:0;
     overflow-y:auto;
     overflow-x: hidden;
-    background-image: url("../images/bg-image-2.jpg");
+    background-image: url("../images/bg-image.jpg");
     background-attachment: fixed;
     background-size:center center;
 }
@@ -169,6 +169,7 @@ header{
     padding:30px 0;
     margin-bottom:0;
     margin-right: 0;
+    font-size:18px;
 }
 .dy-tab>li.active>a {
     color: white;
@@ -188,4 +189,7 @@ header{
     background-color:#16b17c;
     border:none;
     color:white;
+}
+.left-icon{
+    font-size:30px;
 }

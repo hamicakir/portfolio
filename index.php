@@ -4,7 +4,7 @@
             <p class="first-text">Hello, I am</p>
             <p class="name-text">Hami</p>
             <p class="name-text">ÇAKIR</p>
-            <p class="first-text">Full Stack Developer</p>
+            <p class="first-text">Control and Automation Engineer</p>
         </div>
     </div>
 
@@ -28,18 +28,33 @@
         <div>
             <ul class="nav nav-tabs dy-tab">
                 <li class="active">
-                    <a data-toggle="tab" href="#biogrophy">BIOGRAPHY</a>
+
+                    <a data-toggle="tab" href="#biography">
+                        <i class="left-icon icon-quill2"></i>
+                    BIOGRAPHY</a>
                 </li>
                 <li>
-                    <a data-toggle="tab" href="#education">EDUCATION</a>
+                    <a data-toggle="tab" href="#education">
+                        <i class="left-icon icon-graduation-hat"></i>
+                    EDUCATION</a>
                 </li>
                 <li>
-                    <a data-toggle="tab" href="#experience">EXPERIENCE</a>
+                    <a data-toggle="tab" href="#experience">
+                        <i class="left-icon icon-paint-brush-1"></i>
+                    EXPERIENCE</a>
                 </li>
             </ul>
         </div>
         <div class="tab-content">
+            <div id="biography">
+                <p>Deneme</p>
+            </div>
+            <div id="education">
 
+            </div>
+            <div id="experience">
+
+            </div>
         </div>
     </section>
 
